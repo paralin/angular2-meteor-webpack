@@ -1,0 +1,22 @@
+{
+  "name": "angular2-webpack",
+  "private": true,
+  "main": "server/entry.js",
+  "browser": "client/entry.js",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.0",
+    "webpack-hot-middleware": "^2.10.0",
+    "url-loader": "^0.5.7",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "json-loader": "^0.5.4"
+  }
+}
